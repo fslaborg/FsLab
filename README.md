@@ -1,3 +1,1 @@
-# FsLabAdmin
-
-Admin repo for FsLab incubation space.  Please add an issue to get our attention!
+# General repo for FsLab incubation space.  Please add an issue or start a discussion to get our attention!
