@@ -1,6 +1,6 @@
 ## FsLab
 
-This repo contains the curated FsLab stack and acts as a public discussion boar for all things FsLab.
+This repo contains the curated FsLab stack and acts as a public discussion board for all things FsLab.
 
 [![Discord](https://img.shields.io/discord/836161044501889064?color=purple&label=Join%20our%20Discord%21&logo=discord&logoColor=white)](https://discord.gg/6nju7mRQ9G)
 [![Twitter](https://img.shields.io/twitter/follow/fslaborg?style=social)](https://twitter.com/fslaborg)
