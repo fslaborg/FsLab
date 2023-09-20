@@ -1,4 +1,6 @@
-# FsLab - the center of gravity for all things datascience in F#.
+## FsLab
+
+This repo contains the curated FsLab stack and acts as a public discussion boar for all things FsLab.
 
 [![Discord](https://img.shields.io/discord/836161044501889064?color=purple&label=Join%20our%20Discord%21&logo=discord&logoColor=white)](https://discord.gg/6nju7mRQ9G)
 [![Twitter](https://img.shields.io/twitter/follow/fslaborg?style=social)](https://twitter.com/fslaborg)
@@ -18,7 +20,7 @@ Therefore, discussions from discord can be copied to this repo's discussion boar
 
 ## A stack of high quality F# packages for data science
 
-This repo contains two projects - `FsLab` and `FsLab.Interactive` - that act as 'glue' to provide a out-of-the-box solution à la `tydiverse` or `scipy`, but for for F#.
+This repo contains two projects - `FsLab` and `FsLab.Interactive` - that act as 'glue' to provide a out-of-the-box solution Ã  la `tydiverse` or `scipy`, but for for F#.
 
 ### The FsLab package
 
