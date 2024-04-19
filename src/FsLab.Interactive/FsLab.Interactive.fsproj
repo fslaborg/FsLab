@@ -8,20 +8,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="RELEASE_NOTES.md" />
     <Compile Include="Library.fs" />
   </ItemGroup>
+
+  <ItemGroup />
   
   <ItemGroup>
     <PackageReference Include="Deedle" Version="[3.0.0, 4.0.0)" />
     <PackageReference Include="Deedle.Interactive" Version="[3.0.0, 4.0.0)" />
-    <PackageReference Include="FSharp.Stats" Version="0.4.12-preview.2" />
-    <PackageReference Include="FSharp.Stats.Interactive" Version="0.4.12-preview.2" />
+    <PackageReference Include="FSharp.Stats" Version="0.5.1-preview.2" />
+    <PackageReference Include="FSharp.Stats.Interactive" Version="0.5.1-preview.2" />
     <PackageReference Include="Plotly.NET" Version="[4.0.0, 5.0.0)" />
     <PackageReference Include="Plotly.NET.Interactive" Version="[4.0.0, 5.0.0)" />
-    <PackageReference Include="Microsoft.DotNet.Interactive" Version="1.0.0-beta.23165.2" />
-    <PackageReference Include="Microsoft.DotNet.Interactive.Formatting" Version="1.0.0-beta.23165.2" />
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All"/>
-    <ProjectReference Include="..\FsLab\FsLab.fsproj" PackageVersion="[0.0.0, 1.0.0)"/>
+    <PackageReference Include="Microsoft.DotNet.Interactive" Version="1.0.0-beta.24208.1" />
+    <PackageReference Include="Microsoft.DotNet.Interactive.Formatting" Version="1.0.0-beta.24208.1" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+    <ProjectReference Include="..\FsLab\FsLab.fsproj" PackageVersion="[0.0.0, 1.0.0)" />
   </ItemGroup>
 
   <Target Name="UseExplicitPackageVersions" BeforeTargets="GenerateNuspec">

@@ -8,14 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="RELEASE_NOTES.md" />
     <Compile Include="Library.fs" />
   </ItemGroup>
 
+  <ItemGroup />
+
   <ItemGroup>
     <PackageReference Include="Deedle" Version="[3.0.0, 4.0.0)" />
-    <PackageReference Include="FSharp.Stats" Version="0.4.12-preview.2" />
+    <PackageReference Include="FSharp.Stats" Version="0.5.1-preview.2" />
     <PackageReference Include="Plotly.NET" Version="[4.0.0, 5.0.0)" />
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All"/>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>
