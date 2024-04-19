@@ -1,0 +1,66 @@
+name: Build and test
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - 'build/**'
+      - '.github/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - 'build/**'
+      - '.github/**'
+
+
+jobs:
+
+  build-and-test-linux:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.x.x
+    - name: make script executable
+      run: chmod u+x build.sh
+    - name: Build and test
+      working-directory: ./
+      run: ./build.sh runtest
+
+  build-and-test-windows:
+    
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.x.x
+    - name: Build and test
+      working-directory: ./
+      run: ./build.cmd runtests
+
+  build-and-test-macos:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.x.x
+    - name: make script executable
+      run: chmod u+x build.sh
+    - name: Build and test
+      working-directory: ./
+      run: ./build.sh runtest
