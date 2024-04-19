@@ -33,7 +33,7 @@ jobs:
       run: chmod u+x build.sh
     - name: Build and test
       working-directory: ./
-      run: ./build.sh runtest
+      run: ./build.sh runtests
 
   build-and-test-windows:
     
@@ -63,4 +63,4 @@ jobs:
       run: chmod u+x build.sh
     - name: Build and test
       working-directory: ./
-      run: ./build.sh runtest
+      run: ./build.sh runtests
